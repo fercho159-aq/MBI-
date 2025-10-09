@@ -1,4 +1,5 @@
 
+
 import Link from "next/link";
 import { ArrowRight, Building, Rss, Shovel } from "lucide-react";
 import { Home as HomeIcon } from "lucide-react";
@@ -31,9 +32,7 @@ export default function HomePage() {
           </div>
           <div className="absolute inset-0 bg-primary/70" />
           <div className="relative z-10 p-4 max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-headline font-bold tracking-tight text-shadow-lg">
-              Estructura Web: Su Socio en Bienes Raíces y Construcción
-            </h1>
+           <img src="https://mbi-inversiones.com/wp-content/uploads/2025/09/c6e6a07d-efed-4c3f-8023-2a2cac5168e9_thumbnail.webp" alt="Estructura Web Logo"/>
             <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">
               Descubra oportunidades únicas en el sector habitacional, industrial y comercial. Construimos sus sueños.
             </p>
