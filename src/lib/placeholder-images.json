@@ -1,3 +1,100 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "Modern building architecture against a clear sky",
+      "imageUrl": "https://picsum.photos/seed/hero1/1920/1080",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "terreno-1",
+      "description": "Lush green land for sale with trees",
+      "imageUrl": "https://picsum.photos/seed/terreno1/600/400",
+      "imageHint": "green field"
+    },
+    {
+      "id": "terreno-2",
+      "description": "Land with a view of rolling mountains",
+      "imageUrl": "https://picsum.photos/seed/terreno2/600/400",
+      "imageHint": "mountain landscape"
+    },
+    {
+      "id": "departamento-1",
+      "description": "Modern apartment complex exterior on a sunny day",
+      "imageUrl": "https://picsum.photos/seed/depto1/600/400",
+      "imageHint": "apartment building"
+    },
+    {
+      "id": "departamento-2",
+      "description": "Luxury apartment building facade at dusk",
+      "imageUrl": "https://picsum.photos/seed/depto2/600/400",
+      "imageHint": "luxury apartment"
+    },
+    {
+      "id": "industrial-1",
+      "description": "Large industrial warehouse with loading docks",
+      "imageUrl": "https://picsum.photos/seed/industrial1/600/400",
+      "imageHint": "industrial warehouse"
+    },
+    {
+      "id": "industrial-2",
+      "description": "Clean and modern industrial park",
+      "imageUrl": "https://picsum.photos/seed/industrial2/600/400",
+      "imageHint": "industrial park"
+    },
+    {
+      "id": "comercial-1",
+      "description": "Bright and modern street-level commercial storefront",
+      "imageUrl": "https://picsum.photos/seed/comercial1/600/400",
+      "imageHint": "store front"
+    },
+    {
+      "id": "comercial-2",
+      "description": "Glass facade of a modern office building",
+      "imageUrl": "https://picsum.photos/seed/comercial2/600/400",
+      "imageHint": "office building"
+    },
+    {
+      "id": "pueblo-1",
+      "description": "Colorful colonial street in San Miguel de Allende",
+      "imageUrl": "https://picsum.photos/seed/pueblo1/600/400",
+      "imageHint": "colorful street"
+    },
+    {
+      "id": "pueblo-2",
+      "description": "Scenic view of the town of Amealco",
+      "imageUrl": "https://picsum.photos/seed/pueblo2/600/400",
+      "imageHint": "scenic town"
+    },
+    {
+      "id": "construccion-1",
+      "description": "Construction site with a crane against the skyline",
+      "imageUrl": "https://picsum.photos/seed/construccion1/600/400",
+      "imageHint": "construction site"
+    },
+    {
+      "id": "construccion-2",
+      "description": "Architectural blueprints and a hard hat on a table",
+      "imageUrl": "https://picsum.photos/seed/construccion2/1200/800",
+      "imageHint": "architectural blueprints"
+    },
+    {
+      "id": "nosotros-1",
+      "description": "A diverse team of professionals in a modern office meeting",
+      "imageUrl": "https://picsum.photos/seed/nosotros1/600/400",
+      "imageHint": "team meeting"
+    },
+    {
+      "id": "nosotros-2",
+      "description": "A modern and bright office interior",
+      "imageUrl": "https://picsum.photos/seed/nosotros2/1200/800",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "contacto-1",
+      "description": "Close-up of a hand writing on a notepad",
+      "imageUrl": "https://picsum.photos/seed/contacto1/1200/800",
+      "imageHint": "writing hand"
+    }
+  ]
 }
