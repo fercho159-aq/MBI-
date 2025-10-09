@@ -29,7 +29,7 @@ export default function HomePage() {
               }}
             ></iframe>
           </div>
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-primary/70" />
           <div className="relative z-10 p-4 max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-headline font-bold tracking-tight text-shadow-lg">
               Estructura Web: Su Socio en Bienes Raíces y Construcción
