@@ -1,10 +1,12 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import { ArrowRight, Building, Home as HomeIcon, Rss, Shovel } from "lucide-react";
+import { ArrowRight, Building, Rss, Shovel } from "lucide-react";
+import { Home as HomeIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PropertyCard } from "@/components/property-card";
 import { featuredProperties, services } from "@/lib/data";
 import { getPlaceholderImage } from "@/lib/placeholder-images";
+import Image from "next/image";
 
 export default function HomePage() {
   const heroImage = getPlaceholderImage("hero-1");
@@ -12,15 +14,21 @@ export default function HomePage() {
   return (
     <div className="flex flex-col min-h-dvh">
       <main className="flex-1">
-        <section className="relative h-[60vh] md:h-[70vh] w-full flex items-center justify-center text-center text-white">
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
+        <section className="relative h-[60vh] md:h-[70vh] w-full flex items-center justify-center text-center text-white overflow-hidden">
+          <div className="absolute top-0 left-0 w-full h-full">
+            <iframe
+              src="https://www.youtube.com/embed/WZvpNotBNv8?autoplay=1&loop=1&mute=1&controls=0&playlist=WZvpNotBNv8&start=30"
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              className="w-full h-full"
+              style={{
+                width: '100vw',
+                height: '100vh',
+                transform: 'scale(1.5)',
+              }}
+            ></iframe>
+          </div>
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 p-4 max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-headline font-bold tracking-tight text-shadow-lg">
