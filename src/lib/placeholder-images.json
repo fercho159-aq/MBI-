@@ -197,6 +197,24 @@
       "description": "Image of Spartek industrial park",
       "imageUrl": "https://picsum.photos/seed/sph4/800/400",
       "imageHint": "modern warehouse"
+    },
+    {
+      "id": "industrialix-1",
+      "description": "Aerial view of the Industrialix energy cluster",
+      "imageUrl": "https://picsum.photos/seed/industrialix1/1200/800",
+      "imageHint": "energy cluster"
+    },
+    {
+      "id": "industrialix-2",
+      "description": "Paved roads and infrastructure at Industrialix",
+      "imageUrl": "https://picsum.photos/seed/industrialix2/600/400",
+      "imageHint": "industrial roads"
+    },
+    {
+      "id": "industrialix-3",
+      "description": "Nave industrial under construction at the park",
+      "imageUrl": "https://picsum.photos/seed/industrialix3/600/400",
+      "imageHint": "warehouse construction"
     }
   ]
 }

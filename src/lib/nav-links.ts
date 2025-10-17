@@ -57,6 +57,7 @@ export const navLinks: NavLink[] = [
       { href: "#", label: "Europarck" },
       { href: "#", label: "VT Logistic Center" },
       { href: "/industrial/bluhen-business-park", label: "Bluhen Business Park" },
+      { href: "/industrial/industrialix", label: "Industrialix" }
     ],
   },
   { href: "/comercial", label: "Comercial" },
