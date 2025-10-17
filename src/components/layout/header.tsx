@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { ChevronDown, Menu, Mountain, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -157,7 +157,7 @@ export function SiteHeader() {
       <div className="container flex h-16 items-center">
         <div className="flex-1 flex justify-start">
             <Link href="/" className="flex items-center space-x-2">
-            <Mountain className="h-6 w-6 text-primary" />
+            <img src="/logo/MBI-LOGO-500-x-280-px.png" alt="MBI Inversiones Logo" className="h-8 w-auto" />
             <span className="font-bold font-headline sm:inline-block">
                 MBI Inversiones
             </span>
@@ -190,7 +190,7 @@ export function SiteHeader() {
                     className="flex items-center space-x-2"
                     onClick={closeMobileMenu}
                   >
-                    <Mountain className="h-6 w-6 text-primary" />
+                    <img src="/logo/MBI-LOGO-500-x-280-px.png" alt="MBI Inversiones Logo" className="h-8 w-auto" />
                     <span className="font-bold font-headline">
                       MBI Inversiones
                     </span>

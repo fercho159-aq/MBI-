@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mountain, Twitter, Facebook, Instagram } from "lucide-react";
+import { Twitter, Facebook, Instagram } from "lucide-react";
 import { navLinks } from "@/lib/nav-links";
 
 export function SiteFooter() {
@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <Mountain className="h-6 w-6 text-primary" />
+              <img src="/logo/MBI-LOGO-500-x-280-px.png" alt="MBI Inversiones Logo" className="h-10 w-auto" />
               <span className="font-bold font-headline text-lg">
                 MBI Inversiones
               </span>
