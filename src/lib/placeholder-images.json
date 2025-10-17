@@ -149,6 +149,30 @@
       "description": "Modern coworking area in the business park",
       "imageUrl": "https://picsum.photos/seed/bluhen4/600/400",
       "imageHint": "coworking space"
+    },
+    {
+      "id": "practi-park-1",
+      "description": "Aerial view of Practi Park Kelary Norte",
+      "imageUrl": "https://picsum.photos/seed/practi1/1200/800",
+      "imageHint": "industrial park aerial"
+    },
+    {
+      "id": "practi-park-2",
+      "description": "Interior of a modern industrial unit",
+      "imageUrl": "https://picsum.photos/seed/practi2/600/400",
+      "imageHint": "industrial unit"
+    },
+    {
+      "id": "practi-park-3",
+      "description": "Business center amenities at the industrial park",
+      "imageUrl": "https://picsum.photos/seed/practi3/600/400",
+      "imageHint": "business center"
+    },
+    {
+      "id": "practi-park-4",
+      "description": "Controlled access security gate",
+      "imageUrl": "https://picsum.photos/seed/practi4/600/400",
+      "imageHint": "security gate"
     }
   ]
 }
