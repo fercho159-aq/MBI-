@@ -33,7 +33,7 @@ import {
   Droplet,
   Globe,
   Sun,
-  Football,
+  Dribbble,
   Briefcase
 } from "lucide-react";
 
@@ -59,7 +59,7 @@ export default function GrupoSPHPage() {
       { name: "Cafetería", icon: <Coffee className="w-6 h-6" /> },
       { name: "Tienda de conveniencia", icon: <Store className="w-6 h-6" /> },
       { name: "Gimnasio", icon: <Dumbbell className="w-6 h-6" /> },
-      { name: "Cancha de fútbol", icon: <Football className="w-6 h-6" /> },
+      { name: "Cancha de fútbol", icon: <Dribbble className="w-6 h-6" /> },
       { name: "Coworking", icon: <Briefcase className="w-6 h-6" /> },
   ];
 
@@ -222,3 +222,4 @@ export default function GrupoSPHPage() {
     </div>
   );
 }
+    
