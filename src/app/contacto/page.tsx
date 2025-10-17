@@ -39,14 +39,14 @@ export default function ContactoPage() {
                   <Phone className="h-6 w-6 text-accent mt-1" />
                   <div>
                     <h3 className="font-semibold text-foreground">Teléfono</h3>
-                    <p>+52 (442) 123 4567</p>
+                    <p>+52 442 267 4158</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Mail className="h-6 w-6 text-accent mt-1" />
                   <div>
                     <h3 className="font-semibold text-foreground">Correo Electrónico</h3>
-                    <p>contacto@estructura.web</p>
+                    <p>contacto@mbi-inversiones.com</p>
                   </div>
                 </div>
               </div>

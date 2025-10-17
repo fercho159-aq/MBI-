@@ -11,7 +11,7 @@ export function SiteFooter() {
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Mountain className="h-6 w-6 text-primary" />
               <span className="font-bold font-headline text-lg">
-                Estructura Web
+                MBI Inversiones
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
@@ -34,8 +34,8 @@ export function SiteFooter() {
             <div>
               <h4 className="font-headline font-semibold mb-3">Contacto</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>contacto@estructura.web</li>
-                <li>+52 (442) 123 4567</li>
+                <li>contacto@mbi-inversiones.com</li>
+                <li>+52 442 267 4158</li>
                 <li>Querétaro, Qro., México</li>
               </ul>
             </div>
@@ -56,7 +56,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Estructura Web. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} MBI Inversiones. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

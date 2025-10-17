@@ -30,7 +30,7 @@ export default function HomePage() {
           </div>
           <div className="absolute inset-0 bg-primary/70" />
           <div className="relative z-10 p-4 max-w-4xl mx-auto">
-           <img src="https://mbi-inversiones.com/wp-content/uploads/2025/09/c6e6a07d-efed-4c3f-8023-2a2cac5168e9_thumbnail.webp" alt="Estructura Web Logo" className="mx-auto" />
+           <img src="https://mbi-inversiones.com/wp-content/uploads/2025/09/c6e6a07d-efed-4c3f-8023-2a2cac5168e9_thumbnail.webp" alt="MBI Inversiones Logo" className="mx-auto" />
             <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-primary-foreground/90">
               Descubra oportunidades únicas en el sector habitacional, industrial y comercial. Construimos sus sueños.
             </p>
@@ -62,7 +62,7 @@ export default function HomePage() {
                 Sobre Nosotros
               </h2>
               <p className="text-muted-foreground mb-6">
-                Con años de experiencia en el mercado inmobiliario de Querétaro y más allá, Estructura Web se ha consolidado como un referente de confianza, innovación y excelencia. Nuestro equipo de profesionales está comprometido con encontrar la solución perfecta para cada cliente, ya sea un hogar para su familia, un espacio para su negocio o un proyecto de construcción desde cero.
+                Con años de experiencia en el mercado inmobiliario de Querétaro y más allá, MBI Inversiones se ha consolidado como un referente de confianza, innovación y excelencia. Nuestro equipo de profesionales está comprometido con encontrar la solución perfecta para cada cliente, ya sea un hogar para su familia, un espacio para su negocio o un proyecto de construcción desde cero.
               </p>
               <Button asChild variant="link" className="text-accent p-0 h-auto">
                 <Link href="/nosotros">

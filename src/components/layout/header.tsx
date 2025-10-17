@@ -159,7 +159,7 @@ export function SiteHeader() {
             <Link href="/" className="flex items-center space-x-2">
             <Mountain className="h-6 w-6 text-primary" />
             <span className="font-bold font-headline sm:inline-block">
-                Estructura Web
+                MBI Inversiones
             </span>
             </Link>
         </div>
@@ -192,7 +192,7 @@ export function SiteHeader() {
                   >
                     <Mountain className="h-6 w-6 text-primary" />
                     <span className="font-bold font-headline">
-                      Estructura Web
+                      MBI Inversiones
                     </span>
                   </Link>
                   <Button
