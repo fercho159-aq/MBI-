@@ -155,19 +155,23 @@ export function SiteHeader() {
   return (
     <header className="bg-background/80 backdrop-blur-sm sticky top-0 z-50 w-full border-b">
       <div className="container flex h-16 items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Mountain className="h-6 w-6 text-primary" />
-          <span className="font-bold font-headline sm:inline-block">
-            Estructura Web
-          </span>
-        </Link>
+        <div className="flex-1 flex justify-start">
+            <Link href="/" className="flex items-center space-x-2">
+            <Mountain className="h-6 w-6 text-primary" />
+            <span className="font-bold font-headline sm:inline-block">
+                Estructura Web
+            </span>
+            </Link>
+        </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex flex-1 items-center space-x-6 text-sm font-medium">
+        <nav className="hidden md:flex flex-1 justify-center items-center space-x-6 text-sm font-medium">
           {navLinks.map((link) => (
             <NavLinkItem key={link.label} link={link} />
           ))}
         </nav>
+        
+        <div className="flex-1 hidden md:flex justify-end" />
 
         {/* Mobile Navigation */}
         <div className="flex flex-1 items-center justify-end md:hidden">
