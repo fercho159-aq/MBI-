@@ -6,6 +6,13 @@ import { PropertyCard } from "@/components/property-card";
 import { featuredProperties, services } from "@/lib/data";
 import { getPlaceholderImage } from "@/lib/placeholder-images";
 import Image from "next/image";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 export default function HomePage() {
   const heroImage = getPlaceholderImage("hero-1");
@@ -47,11 +54,25 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-headline font-bold text-center mb-12 text-primary">
               Propiedades Destacadas
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {featuredProperties.map((property) => (
-                <PropertyCard key={property.id} property={property} />
-              ))}
-            </div>
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              className="w-full"
+            >
+              <CarouselContent>
+                {featuredProperties.map((property) => (
+                  <CarouselItem key={property.id} className="md:basis-1/2 lg:basis-1/3">
+                    <div className="p-1">
+                      <PropertyCard property={property} />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="hidden sm:flex" />
+              <CarouselNext className="hidden sm:flex" />
+            </Carousel>
           </div>
         </section>
 
