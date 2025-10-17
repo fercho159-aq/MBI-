@@ -25,13 +25,13 @@ import {
   Library,
   Sprout,
   Play,
-  Grill,
   Tent,
   PlaySquare,
   Building2,
   Hotel,
   Landmark,
-  PencilRuler
+  PencilRuler,
+  Dribbble
 } from "lucide-react";
 
 export default function CanadasDelArroyoPage() {
@@ -56,7 +56,7 @@ export default function CanadasDelArroyoPage() {
     { name: "Parque para mascotas", icon: <Dog /> },
     { name: "Área de picnic", icon: <Tent /> },
     { name: "Área de patinaje", icon: <PlaySquare /> },
-    { name: "Área de asadores", icon: <Grill /> },
+    { name: "Área de asadores", icon: <Flame /> },
     { name: "Juegos infantiles con arenero", icon: <Play /> },
     { name: "Gimnasio al aire libre", icon: <Dumbbell /> },
     { name: "Pabellón", icon: <Landmark /> },
