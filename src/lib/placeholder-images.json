@@ -263,6 +263,30 @@
       "description": "Children's playground with slides and swings",
       "imageUrl": "https://picsum.photos/seed/canadas4/600/400",
       "imageHint": "playground kids"
+    },
+    {
+      "id": "xanta-1",
+      "description": "Modern entrance to Xanta Residencial",
+      "imageUrl": "https://picsum.photos/seed/xanta1/1200/800",
+      "imageHint": "modern entrance"
+    },
+    {
+      "id": "xanta-2",
+      "description": "Serene artificial lake within the residential area",
+      "imageUrl": "https://picsum.photos/seed/xanta2/600/400",
+      "imageHint": "artificial lake"
+    },
+    {
+      "id": "xanta-3",
+      "description": "Children playing in a safe and fun playground",
+      "imageUrl": "https://picsum.photos/seed/xanta3/600/400",
+      "imageHint": "children playground"
+    },
+    {
+      "id": "xanta-4",
+      "description": "Covered palapa area for events with barbecue",
+      "imageUrl": "https://picsum.photos/seed/xanta4/600/400",
+      "imageHint": "event palapa"
     }
   ]
 }

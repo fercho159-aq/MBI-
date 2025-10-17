@@ -19,7 +19,7 @@ export const navLinks: NavLink[] = [
           { href: "#", label: "Cañadas del Valle" },
           { href: "#", label: "Simate" },
           { href: "/habitacional/aldea-campestre", label: "Aldea" },
-          { href: "#", label: "Xanta" },
+          { href: "/habitacional/xanta", label: "Xanta" },
           { href: "#", label: "Punto Olivo" },
           { href: "#", label: "Cañada la Porta" },
           { href: "#", label: "Lago de Juriquilla" },
