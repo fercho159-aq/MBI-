@@ -239,6 +239,30 @@
       "description": "Outdoor barbecue area for residents",
       "imageUrl": "https://picsum.photos/seed/aldea4/600/400",
       "imageHint": "barbecue area"
+    },
+    {
+      "id": "canadas-1",
+      "description": "Panoramic view of Cañadas del Arroyo with green hills",
+      "imageUrl": "https://picsum.photos/seed/canadas1/1200/800",
+      "imageHint": "green valley"
+    },
+    {
+      "id": "canadas-2",
+      "description": "Modern clubhouse at Cañadas del Arroyo",
+      "imageUrl": "https://picsum.photos/seed/canadas2/600/400",
+      "imageHint": "modern clubhouse"
+    },
+    {
+      "id": "canadas-3",
+      "description": "Family enjoying the swimming pool",
+      "imageUrl": "https://picsum.photos/seed/canadas3/600/400",
+      "imageHint": "family swimming"
+    },
+    {
+      "id": "canadas-4",
+      "description": "Children's playground with slides and swings",
+      "imageUrl": "https://picsum.photos/seed/canadas4/600/400",
+      "imageHint": "playground kids"
     }
   ]
 }

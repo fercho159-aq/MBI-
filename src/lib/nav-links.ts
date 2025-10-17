@@ -15,7 +15,7 @@ export const navLinks: NavLink[] = [
         href: "#",
         label: "Terrenos para Casa",
         subLinks: [
-          { href: "#", label: "Cañadas del Arroyo" },
+          { href: "/habitacional/canadas-del-arroyo", label: "Cañadas del Arroyo" },
           { href: "#", label: "Cañadas del Valle" },
           { href: "#", label: "Simate" },
           { href: "/habitacional/aldea-campestre", label: "Aldea" },
