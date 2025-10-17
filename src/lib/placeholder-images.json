@@ -125,6 +125,30 @@
       "description": "Luxury property with a swimming pool",
       "imageUrl": "/images/HIGH LIGTHS HOT/SERENA SAN MIGUEL OFERTA COMERCIAL.jpeg",
       "imageHint": "luxury pool"
+    },
+    {
+      "id": "bluhen-1",
+      "description": "Exterior view of the industrial warehouse at Bluhen Business Park",
+      "imageUrl": "https://picsum.photos/seed/bluhen1/1200/800",
+      "imageHint": "industrial warehouse"
+    },
+    {
+      "id": "bluhen-2",
+      "description": "Interior of the warehouse showing the 10-meter height",
+      "imageUrl": "https://picsum.photos/seed/bluhen2/600/400",
+      "imageHint": "warehouse interior"
+    },
+    {
+      "id": "bluhen-3",
+      "description": "Loading dock with metallic curtain",
+      "imageUrl": "https://picsum.photos/seed/bluhen3/600/400",
+      "imageHint": "loading dock"
+    },
+    {
+      "id": "bluhen-4",
+      "description": "Modern coworking area in the business park",
+      "imageUrl": "https://picsum.photos/seed/bluhen4/600/400",
+      "imageHint": "coworking space"
     }
   ]
 }

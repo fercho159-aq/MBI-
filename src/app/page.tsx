@@ -31,7 +31,7 @@ export default function HomePage() {
         <section className="relative h-[70vh] md:h-[80vh] w-full flex items-center justify-center text-center text-white overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full">
             <iframe
-              src="https://www.youtube.com/embed/WZvpNotBNv8?autoplay=1&loop=1&mute=1&controls=0&playlist=WZvpNotBNv8&start=30"
+              src="/images/HIGH LIGTHS HOT/VIDEO SERENA  SAN MIGUEL DE ALLENDE DESARROLLO.mp4"
               frameBorder="0"
               allow="autoplay; encrypted-media"
               allowFullScreen
