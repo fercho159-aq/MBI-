@@ -47,7 +47,7 @@ export const navLinks: NavLink[] = [
         href: "#",
         label: "Parques Industriales",
         subLinks: [
-          { href: "#", label: "Grupo SHP" },
+          { href: "/industrial/grupo-sph", label: "Grupo SPH" },
           { href: "#", label: "Spartek" },
           { href: "#", label: "Acupark" },
           { href: "#", label: "Norponiente" },

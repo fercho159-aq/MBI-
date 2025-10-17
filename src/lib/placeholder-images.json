@@ -173,6 +173,30 @@
       "description": "Controlled access security gate",
       "imageUrl": "https://picsum.photos/seed/practi4/600/400",
       "imageHint": "security gate"
+    },
+    {
+      "id": "sph-main",
+      "description": "Logo or main image for Grupo SPH",
+      "imageUrl": "https://picsum.photos/seed/sph1/1200/800",
+      "imageHint": "corporate building"
+    },
+    {
+      "id": "sph-norponiente",
+      "description": "Image of SPH Norponiente industrial park",
+      "imageUrl": "https://picsum.photos/seed/sph2/800/600",
+      "imageHint": "industrial park"
+    },
+    {
+      "id": "sph-acupark",
+      "description": "Image of Acupark industrial park",
+      "imageUrl": "https://picsum.photos/seed/sph3/800/400",
+      "imageHint": "warehouse exterior"
+    },
+    {
+      "id": "sph-spartek",
+      "description": "Image of Spartek industrial park",
+      "imageUrl": "https://picsum.photos/seed/sph4/800/400",
+      "imageHint": "modern warehouse"
     }
   ]
 }
