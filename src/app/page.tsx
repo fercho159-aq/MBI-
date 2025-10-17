@@ -41,7 +41,7 @@ export default function HomePage() {
           </div>
           <div className="absolute inset-0 bg-primary/70" />
           <div className="relative z-10 p-4 max-w-4xl mx-auto">
-           <img src="/logo/MBI-LOGO-500-x-280-px.png" alt="MBI Inversiones Logo" className="mx-auto h-20 w-auto" />
+           <img src="https://mbi-inversiones.com/wp-content/uploads/2024/08/MBI-LOGO.png" alt="MBI Inversiones Logo" className="mx-auto h-20 w-auto" />
             <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-primary-foreground/90">
               Descubra oportunidades únicas en el sector habitacional, industrial y comercial. Construimos sus sueños.
             </p>

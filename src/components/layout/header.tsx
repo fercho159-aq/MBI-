@@ -157,10 +157,8 @@ export function SiteHeader() {
       <div className="container flex h-16 items-center">
         <div className="flex-1 flex justify-start">
             <Link href="/" className="flex items-center space-x-2">
-            <img src="/logo/MBI-LOGO-500-x-280-px.png" alt="MBI Inversiones Logo" className="h-8 w-auto" />
-            <span className="font-bold font-headline sm:inline-block">
-                MBI Inversiones
-            </span>
+            <img src="/logos/MBI-LOGO-500-x-280-px.png" alt="MBI Inversiones Logo" className="h-8 w-auto" />
+            
             </Link>
         </div>
 
