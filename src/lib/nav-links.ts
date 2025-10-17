@@ -18,7 +18,7 @@ export const navLinks: NavLink[] = [
           { href: "#", label: "Cañadas del Arroyo" },
           { href: "#", label: "Cañadas del Valle" },
           { href: "#", label: "Simate" },
-          { href: "#", label: "Aldea" },
+          { href: "/habitacional/aldea-campestre", label: "Aldea" },
           { href: "#", label: "Xanta" },
           { href: "#", label: "Punto Olivo" },
           { href: "#", label: "Cañada la Porta" },
@@ -88,3 +88,4 @@ export const navLinks: NavLink[] = [
   },
   { href: "/contacto", label: "Contacto" },
 ];
+    

@@ -215,6 +215,30 @@
       "description": "Nave industrial under construction at the park",
       "imageUrl": "https://picsum.photos/seed/industrialix3/600/400",
       "imageHint": "warehouse construction"
+    },
+    {
+      "id": "aldea-1",
+      "description": "Entrance to the Aldea Campestre residential development",
+      "imageUrl": "https://picsum.photos/seed/aldea1/1200/800",
+      "imageHint": "residential entrance"
+    },
+    {
+      "id": "aldea-2",
+      "description": "Clubhouse with swimming pool at Aldea Campestre",
+      "imageUrl": "https://picsum.photos/seed/aldea2/600/400",
+      "imageHint": "clubhouse pool"
+    },
+    {
+      "id": "aldea-3",
+      "description": "Green area with landscaping and benches",
+      "imageUrl": "https://picsum.photos/seed/aldea3/600/400",
+      "imageHint": "park area"
+    },
+    {
+      "id": "aldea-4",
+      "description": "Outdoor barbecue area for residents",
+      "imageUrl": "https://picsum.photos/seed/aldea4/600/400",
+      "imageHint": "barbecue area"
     }
   ]
 }
