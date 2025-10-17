@@ -79,7 +79,7 @@ export default function HomePage() {
                           alt={image.description}
                           width={1200}
                           height={675}
-                          className="object-contain w-full h-full"
+                          className="object-cover w-full h-full"
                            data-ai-hint={image.imageHint}
                         />
                       </div>
