@@ -21,6 +21,8 @@ export default function HomePage() {
     getPlaceholderImage("promo-1"),
     getPlaceholderImage("promo-2"),
     getPlaceholderImage("promo-3"),
+    getPlaceholderImage("terreno-1"),
+    getPlaceholderImage("departamento-1"),
   ];
 
   return (
@@ -65,11 +67,11 @@ export default function HomePage() {
                 align: "start",
                 loop: true,
               }}
-              className="w-full max-w-5xl mx-auto"
+              className="w-full"
             >
               <CarouselContent>
                 {promoImages.map((image) => (
-                  <CarouselItem key={image.id}>
+                  <CarouselItem key={image.id} className="md:basis-1/2 lg:basis-1/3">
                     <div className="p-1">
                       <div className="overflow-hidden rounded-lg">
                         <Image
