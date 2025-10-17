@@ -1,5 +1,3 @@
-
-
 import Link from "next/link";
 import { ArrowRight, Building, Rss, Shovel } from "lucide-react";
 import { Home as HomeIcon } from "lucide-react";
@@ -15,7 +13,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col min-h-dvh">
       <main className="flex-1">
-        <section className="relative h-[60vh] md:h-[70vh] w-full flex items-center justify-center text-center text-white overflow-hidden">
+        <section className="relative h-[70vh] md:h-[80vh] w-full flex items-center justify-center text-center text-white overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full">
             <iframe
               src="https://www.youtube.com/embed/WZvpNotBNv8?autoplay=1&loop=1&mute=1&controls=0&playlist=WZvpNotBNv8&start=30"
@@ -32,11 +30,11 @@ export default function HomePage() {
           </div>
           <div className="absolute inset-0 bg-primary/70" />
           <div className="relative z-10 p-4 max-w-4xl mx-auto">
-           <img src="https://mbi-inversiones.com/wp-content/uploads/2025/09/c6e6a07d-efed-4c3f-8023-2a2cac5168e9_thumbnail.webp" alt="Estructura Web Logo"/>
-            <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">
+           <img src="https://mbi-inversiones.com/wp-content/uploads/2025/09/c6e6a07d-efed-4c3f-8023-2a2cac5168e9_thumbnail.webp" alt="Estructura Web Logo" className="mx-auto" />
+            <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-primary-foreground/90">
               Descubra oportunidades únicas en el sector habitacional, industrial y comercial. Construimos sus sueños.
             </p>
-            <Button asChild size="lg" className="mt-8 bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Button asChild size="lg" className="mt-8 bg-accent hover:bg-accent/90 text-accent-foreground rounded-full">
               <Link href="/habitacional">
                 Ver Propiedades <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
@@ -46,7 +44,7 @@ export default function HomePage() {
 
         <section id="featured-properties" className="py-16 md:py-24 bg-background">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold text-center mb-12 text-primary">
               Propiedades Destacadas
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -60,7 +58,7 @@ export default function HomePage() {
         <section className="py-16 md:py-24 bg-card">
            <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-headline font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-headline font-bold mb-4 text-primary">
                 Sobre Nosotros
               </h2>
               <p className="text-muted-foreground mb-6">
@@ -78,7 +76,7 @@ export default function HomePage() {
                 alt={getPlaceholderImage('nosotros-1').description}
                 width={600}
                 height={400}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-xl"
                 data-ai-hint={getPlaceholderImage('nosotros-1').imageHint}
               />
             </div>
@@ -87,10 +85,10 @@ export default function HomePage() {
 
         <section id="services" className="py-16 md:py-24 bg-background">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold mb-12">Nuestros Servicios</h2>
+            <h2 className="text-3xl md:text-4xl font-headline font-bold mb-12 text-primary">Nuestros Servicios</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {services.map((service) => (
-                <div key={service.title} className="flex flex-col items-center">
+                <div key={service.title} className="flex flex-col items-center p-6 bg-card rounded-lg shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                   <div className="bg-primary text-primary-foreground rounded-full p-4 mb-4">
                     <service.icon className="h-8 w-8" />
                   </div>
@@ -108,7 +106,7 @@ export default function HomePage() {
             <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
               Contáctenos hoy mismo para una asesoría personalizada. Nuestro equipo está listo para ayudarle.
             </p>
-            <Button asChild size="lg" variant="secondary" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Button asChild size="lg" variant="secondary" className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full">
               <Link href="/contacto">
                 Contáctenos
               </Link>
