@@ -21,8 +21,8 @@ export default function HomePage() {
     getPlaceholderImage("promo-1"),
     getPlaceholderImage("promo-2"),
     getPlaceholderImage("promo-3"),
-    getPlaceholderImage("terreno-1"),
-    getPlaceholderImage("departamento-1"),
+    getPlaceholderImage("promo-4"),
+    getPlaceholderImage("promo-5"),
   ];
 
   return (
@@ -73,13 +73,13 @@ export default function HomePage() {
                 {promoImages.map((image) => (
                   <CarouselItem key={image.id} className="md:basis-1/2 lg:basis-1/3">
                     <div className="p-1">
-                      <div className="overflow-hidden rounded-lg">
+                      <div className="overflow-hidden rounded-lg aspect-video">
                         <Image
                           src={image.imageUrl}
                           alt={image.description}
                           width={1200}
                           height={675}
-                          className="object-cover aspect-video w-full h-full"
+                          className="object-contain w-full h-full"
                            data-ai-hint={image.imageHint}
                         />
                       </div>

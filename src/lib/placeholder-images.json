@@ -99,19 +99,31 @@
     {
       "id": "promo-1",
       "description": "Family looking at a new house",
-      "imageUrl": "https://picsum.photos/seed/promo1/1200/675",
+      "imageUrl": "/images/HIGH LIGTHS HOT/capital sur promo_.jpg",
       "imageHint": "new house"
     },
     {
       "id": "promo-2",
       "description": "Modern kitchen in a new apartment",
-      "imageUrl": "https://picsum.photos/seed/promo2/1200/675",
+      "imageUrl": "/images/HIGH LIGTHS HOT/Foto CONSTRUCCION_.jpg",
       "imageHint": "modern kitchen"
     },
     {
       "id": "promo-3",
       "description": "Luxury property with a swimming pool",
-      "imageUrl": "https://picsum.photos/seed/promo3/1200/675",
+      "imageUrl": "/images/HIGH LIGTHS HOT/promoción costerra.jpg",
+      "imageHint": "luxury pool"
+    },
+    {
+      "id": "promo-4",
+      "description": "Luxury property with a swimming pool",
+      "imageUrl": "/images/HIGH LIGTHS HOT/promoción últimos lotes 324 costerra.jpg",
+      "imageHint": "luxury pool"
+    },
+    {
+      "id": "promo-5",
+      "description": "Luxury property with a swimming pool",
+      "imageUrl": "/images/HIGH LIGTHS HOT/SERENA SAN MIGUEL OFERTA COMERCIAL.jpeg",
       "imageHint": "luxury pool"
     }
   ]
