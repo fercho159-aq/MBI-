@@ -156,7 +156,10 @@ export default function PractiParkPage() {
                             <div className="space-y-4">
                                 {forSale.map(item => (
                                     <div key={item.lote} className="flex justify-between items-baseline p-3 bg-background rounded-md border">
-                                        <p className="text-sm"> <Badge variant="outline" className="mr-2">Lote {item.lote}</Badge> {item.size}</p>
+                                        <div className="text-sm flex items-center">
+                                          <Badge variant="outline" className="mr-2">Lote {item.lote}</Badge>
+                                          {item.size}
+                                        </div>
                                         <p className="font-semibold text-sm">{item.price}</p>
                                     </div>
                                 ))}
