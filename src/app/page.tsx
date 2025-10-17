@@ -16,6 +16,11 @@ import {
 
 export default function HomePage() {
   const heroImage = getPlaceholderImage("hero-1");
+  const promoImages = [
+    getPlaceholderImage("promo-1"),
+    getPlaceholderImage("promo-2"),
+    getPlaceholderImage("promo-3"),
+  ];
 
   return (
     <div className="flex flex-col min-h-dvh">
@@ -46,6 +51,42 @@ export default function HomePage() {
                 Ver Propiedades <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
+          </div>
+        </section>
+
+        <section id="promotions" className="py-16 md:py-24 bg-card">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold text-center mb-12 text-primary">
+              Promociones
+            </h2>
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              className="w-full max-w-5xl mx-auto"
+            >
+              <CarouselContent>
+                {promoImages.map((image) => (
+                  <CarouselItem key={image.id}>
+                    <div className="p-1">
+                      <div className="overflow-hidden rounded-lg">
+                        <Image
+                          src={image.imageUrl}
+                          alt={image.description}
+                          width={1200}
+                          height={675}
+                          className="object-cover aspect-video w-full h-full"
+                           data-ai-hint={image.imageHint}
+                        />
+                      </div>
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="hidden sm:flex" />
+              <CarouselNext className="hidden sm:flex" />
+            </Carousel>
           </div>
         </section>
 

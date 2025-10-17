@@ -95,6 +95,24 @@
       "description": "Close-up of a hand writing on a notepad",
       "imageUrl": "https://picsum.photos/seed/contacto1/1200/800",
       "imageHint": "writing hand"
+    },
+    {
+      "id": "promo-1",
+      "description": "Family looking at a new house",
+      "imageUrl": "https://picsum.photos/seed/promo1/1200/675",
+      "imageHint": "new house"
+    },
+    {
+      "id": "promo-2",
+      "description": "Modern kitchen in a new apartment",
+      "imageUrl": "https://picsum.photos/seed/promo2/1200/675",
+      "imageHint": "modern kitchen"
+    },
+    {
+      "id": "promo-3",
+      "description": "Luxury property with a swimming pool",
+      "imageUrl": "https://picsum.photos/seed/promo3/1200/675",
+      "imageHint": "luxury pool"
     }
   ]
 }
