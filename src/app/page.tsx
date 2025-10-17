@@ -30,18 +30,14 @@ export default function HomePage() {
       <main className="flex-1">
         <section className="relative h-[70vh] md:h-[80vh] w-full flex items-center justify-center text-center text-white overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full">
-            <iframe
+            <video
               src="/images/HIGH LIGTHS HOT/VIDEO SERENA  SAN MIGUEL DE ALLENDE DESARROLLO.mp4"
-              frameBorder="0"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-              className="w-full h-full"
-              style={{
-                width: '100vw',
-                height: '100vh',
-                transform: 'scale(1.5)',
-              }}
-            ></iframe>
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+            ></video>
           </div>
           <div className="absolute inset-0 bg-primary/70" />
           <div className="relative z-10 p-4 max-w-4xl mx-auto">
