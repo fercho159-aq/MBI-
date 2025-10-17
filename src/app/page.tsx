@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { ArrowRight, Building, Rss, Shovel } from "lucide-react";
 import { Home as HomeIcon } from "lucide-react";
@@ -104,7 +105,7 @@ export default function HomePage() {
             >
               <CarouselContent>
                 {featuredProperties.map((property) => (
-                  <CarouselItem key={property.id} className="md:basis-1/2 lg:basis-1/3">
+                  <CarouselItem key={property.id} className="basis-full md:basis-1/2 lg:basis-1/3">
                     <div className="p-1">
                       <PropertyCard property={property} />
                     </div>
