@@ -72,13 +72,13 @@ export default function HomePage() {
               <CarouselContent>
                 {promoImages.map((image) => (
                   <CarouselItem key={image.id} className="md:basis-1/2 lg:basis-1/3">
-                    <div className="p-1">
-                      <div className="overflow-hidden rounded-lg">
+                    <div className="p-1 h-full flex items-center">
+                      <div className="overflow-hidden rounded-lg w-full">
                         <Image
                           src={image.imageUrl}
                           alt={image.description}
                           width={1200}
-                          height={675}
+                          height={800}
                           className="object-contain w-full h-auto"
                            data-ai-hint={image.imageHint}
                         />
