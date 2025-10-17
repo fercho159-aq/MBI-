@@ -4,6 +4,7 @@ import { cn } from '@/lib/utils';
 import { SiteHeader } from '@/components/layout/header';
 import { SiteFooter } from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster"
+import { FloatingContactButtons } from '@/components/floating-contact-buttons';
 
 export const metadata: Metadata = {
   title: 'Estructura Web',
@@ -32,6 +33,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </div>
+        <FloatingContactButtons />
         <Toaster />
       </body>
     </html>
