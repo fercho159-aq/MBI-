@@ -6,5 +6,6 @@ export type Property = {
   price?: string;
   type: 'Terreno' | 'Departamento' | 'Industrial' | 'Comercial' | 'Turismo';
   imageId: string;
+  href: string;
   details?: { label: string; value: string }[];
 };
